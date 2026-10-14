@@ -12,6 +12,11 @@ brew install --cask barremember
 
 This Cask supports Apple Silicon Macs running macOS 14 Sonoma or later.
 
+Recent Homebrew versions require an explicit local trust decision before loading
+a third-party Cask. Review this public tap first; if you choose to trust it, run
+`brew trust angellashin/barremember` before the install command. This stores a
+local Homebrew trust setting and is not performed by BarRemember.
+
 ## Security status
 
 The current app is ad-hoc signed and is not Developer ID signed or
